@@ -1,0 +1,39 @@
+.inputContainer {
+  display: grid;
+  grid-template-rows: repeat(3, 0.4fr);
+  gap: 2rem;
+}
+
+.inputHeading {
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.PersonalInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.govtIdInput {
+  margin: 1rem 0;
+}
+
+.roleType {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1rem;
+}
+.govtId {
+  display: flex;
+  gap: 1rem;
+}
+
+.basicDetails {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.addUserBtn {
+  justify-self: flex-end;
+}

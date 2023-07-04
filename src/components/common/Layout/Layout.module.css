@@ -1,0 +1,29 @@
+.layout {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #f1f1f1;
+  transition: all 0.3s ease;
+  width: 300px;
+}
+
+.collapsed {
+  width: 100px;
+}
+
+.content {
+  margin-left: 300px;
+  transition: all 0.3s ease;
+  overflow-x: hidden;
+}
+
+.expandedContent {
+  margin-left: 100px;
+}

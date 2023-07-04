@@ -1,0 +1,38 @@
+.users {
+  border-collapse: collapse;
+  border-radius: 18px;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.heading {
+  color: #263a66;
+  background-color: #f9f9f9;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+.users tr {
+  height: 3rem;
+  width: 100%;
+}
+
+.users td {
+  padding: 8px 16px;
+  color: #a09f9f;
+}
+
+.users th,
+td:not(:has(button)) {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.users tbody tr:nth-child(even) {
+  background-color: #f7f9fe;
+}
+
+.users tbody tr:hover {
+  background-color: #dbe6fd;
+}

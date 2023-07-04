@@ -1,0 +1,4 @@
+.teamManagement {
+  display: flex;
+  flex-direction: column;
+}

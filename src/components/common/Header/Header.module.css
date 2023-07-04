@@ -1,0 +1,18 @@
+.Header {
+  background: white;
+  min-height: 4rem;
+  display: grid;
+  justify-content: flex-end;
+}
+.profile {
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date {
+  color: #a09f9f;
+  padding-top: 4px;
+  font-size: 0.9rem;
+}

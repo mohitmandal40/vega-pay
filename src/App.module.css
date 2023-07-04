@@ -1,0 +1,32 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  transition: all 0.3s ease;
+}
+
+.sidebar {
+  transition: all 0.3s ease;
+}
+
+.collapsed {
+  width: 60px;
+  transition: width 0.3s ease;
+}
+
+.toggleButton {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border: none;
+  cursor: pointer;
+}
+
+.content {
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.expandedContent {
+  margin-left: 200px;
+}

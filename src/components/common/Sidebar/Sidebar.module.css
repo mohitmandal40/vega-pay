@@ -1,0 +1,67 @@
+.Sidebar {
+  height: 100vh;
+  background-color: #13142f;
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100vh;
+  grid-template-rows: 100px auto 1fr;
+  justify-items: center;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  width: 70%;
+}
+
+.NavItems {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+  justify-self: center;
+  width: 80%;
+}
+
+.icon {
+  margin-right: 20px;
+}
+
+.NavItem {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.NavItem a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  width: 80%;
+}
+
+.sidebarFooter {
+  color: #fff;
+  align-self: flex-end;
+  margin-bottom: 3rem;
+  font-size: 0.9rem;
+}
+
+.Copyright {
+  color: #a09f9f;
+  margin-top: 8px;
+}
